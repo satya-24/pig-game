@@ -10,7 +10,7 @@ GAME RULES:
 */
 var scores, roundScore, activePlayer, dice1Score,dice2Score, finalScore;
 init();
-document.querySelector('.btn-new').addEventListener('click', init);
+$('.btn-new').on('click', init);
 document.querySelector('.btn-roll').addEventListener('click', rollDice);
 document.querySelector('.btn-hold').addEventListener('click', holdValue);
 function rollDice() {
